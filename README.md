@@ -1,45 +1,45 @@
-﻿# Git & GitHub â€” Travaux Pratiques
+# Git & GitHub — Travaux Pratiques
 
-## PrÃ©sentation du module
+## Présentation du module
 
-Ce dÃ©pÃ´t regroupe les travaux pratiques rÃ©alisÃ©s dans le cadre du module **Git et GitHub**.
+Ce dépôt regroupe les travaux pratiques réalisés dans le cadre du module **Git et GitHub**.
 
-L'objectif est de dÃ©couvrir et de maÃ®triser les outils de gestion de versions, le travail avec les branches, la collaboration et la gestion des projets avec Git et GitHub.
+L'objectif est de découvrir et de maîtriser les outils de gestion de versions, le travail avec les branches, la collaboration et la gestion des projets avec Git et GitHub.
 
-## Objectifs pÃ©dagogiques
+## Objectifs pédagogiques
 
 - Comprendre le fonctionnement de Git et de GitHub.
-- MaÃ®triser les commandes essentielles de Git.
-- GÃ©rer les modifications et l'historique d'un projet.
-- CrÃ©er et gÃ©rer des branches.
-- Comprendre les diffÃ©rentes mÃ©thodes de fusion.
+- Maîtriser les commandes essentielles de Git.
+- Gérer les modifications et l'historique d'un projet.
+- Créer et gérer des branches.
+- Comprendre les différentes méthodes de fusion.
 - Configurer une connexion SSH avec GitHub.
 - Utiliser les Pull Requests.
-- Appliquer des rÃ¨gles de protection des branches.
+- Appliquer des règles de protection des branches.
 
 ## Environnement de travail
 
 | Outil | Utilisation |
 |---|---|
 | Git | Gestion de versions |
-| GitHub | HÃ©bergement et collaboration |
-| PowerShell | ExÃ©cution des commandes Git |
-| SSH | Authentification sÃ©curisÃ©e |
-| Visual Studio Code | Ã‰dition des fichiers |
+| GitHub | Hébergement et collaboration |
+| PowerShell | Exécution des commandes Git |
+| SSH | Authentification sécurisée |
+| Visual Studio Code | Édition des fichiers |
 
 ---
 
-# TP1 â€” Les bases de Git
+# TP1 — Les bases de Git
 
 ## Objectif
 
-DÃ©couvrir les fonctionnalitÃ©s fondamentales de Git et apprendre Ã  gÃ©rer les modifications d'un projet.
+Découvrir les fonctionnalités fondamentales de Git et apprendre à gérer les modifications d'un projet.
 
-## Travail rÃ©alisÃ©
+## Travail réalisé
 
-- Initialisation d'un dÃ©pÃ´t Git.
+- Initialisation d'un dépôt Git.
 - Ajout et suivi des fichiers.
-- CrÃ©ation des premiers commits.
+- Création des premiers commits.
 - Comparaison des modifications avec `git diff`.
 - Consultation de l'historique avec `git log`.
 - Utilisation du fichier `.gitignore`.
@@ -47,12 +47,12 @@ DÃ©couvrir les fonctionnalitÃ©s fondamentales de Git et apprendre Ã  gÃ©
 - Modification du dernier commit avec `git commit --amend`.
 - Annulation d'un commit avec `git revert`.
 
-## Captures d'Ã©cran
+## Captures d'écran
 
-### 1. Initialisation du dÃ©pÃ´t
+### 1. Initialisation du dépôt
 ![Initialisation](screenshots/TP1/01-init.png)
 
-### 2. Ajout et vÃ©rification du statut
+### 2. Ajout et vérification du statut
 ![Add Status](screenshots/TP1/02-add-status.png)
 
 ### 3. Premier commit
@@ -67,13 +67,13 @@ DÃ©couvrir les fonctionnalitÃ©s fondamentales de Git et apprendre Ã  gÃ©
 ### 6. Avant la configuration de Gitignore
 ![Before Gitignore](screenshots/TP1/06-before-gitignore.png)
 
-### 7. AprÃ¨s la configuration de Gitignore
+### 7. Après la configuration de Gitignore
 ![After Gitignore](screenshots/TP1/07-after-gitignore.png)
 
 ### 8. Restauration des modifications
 ![Restore](screenshots/TP1/08-restore.png)
 
-### 9. Restauration des fichiers indexÃ©s
+### 9. Restauration des fichiers indexés
 ![Restore Staged](screenshots/TP1/09-restore-staged.png)
 
 ### 10. Modification du dernier commit
@@ -87,24 +87,24 @@ DÃ©couvrir les fonctionnalitÃ©s fondamentales de Git et apprendre Ã  gÃ©
 
 ---
 
-# TP2 â€” Gestion des branches et fusion
+# TP2 — Gestion des branches et fusion
 
 ## Objectif
 
-Apprendre Ã  travailler avec plusieurs branches et dÃ©couvrir les diffÃ©rentes mÃ©thodes d'intÃ©gration des modifications.
+Apprendre à travailler avec plusieurs branches et découvrir les différentes méthodes d'intégration des modifications.
 
-## Travail rÃ©alisÃ©
+## Travail réalisé
 
-- CrÃ©ation et gestion des branches.
-- RÃ©alisation d'une fusion Fast-Forward.
-- RÃ©alisation d'une fusion Three-Way Merge.
+- Création et gestion des branches.
+- Réalisation d'une fusion Fast-Forward.
+- Réalisation d'une fusion Three-Way Merge.
 - Gestion des conflits de fusion.
 - Utilisation de Git Rebase.
 - Mise en attente des modifications avec Git Stash.
-- CrÃ©ation et gestion des Tags.
-- VÃ©rification de l'historique final.
+- Création et gestion des Tags.
+- Vérification de l'historique final.
 
-## Captures d'Ã©cran
+## Captures d'écran
 
 ### 1. Fast-Forward Merge
 ![Fast Forward](screenshots/TP2/tp2-01-fast-forward.png)
@@ -126,45 +126,45 @@ Apprendre Ã  travailler avec plusieurs branches et dÃ©couvrir les diffÃ©re
 
 ---
 
-# TP3 â€” Configuration de SSH avec GitHub
+# TP3 — Configuration de SSH avec GitHub
 
 ## Objectif
 
-Configurer une connexion SSH afin de communiquer avec GitHub de maniÃ¨re sÃ©curisÃ©e.
+Configurer une connexion SSH afin de communiquer avec GitHub de manière sécurisée.
 
-## Travail rÃ©alisÃ©
+## Travail réalisé
 
-- DÃ©couverte de l'authentification SSH.
-- Configuration d'une clÃ© SSH.
-- Association de la clÃ© publique au compte GitHub.
-- VÃ©rification de la connexion SSH.
+- Découverte de l'authentification SSH.
+- Configuration d'une clé SSH.
+- Association de la clé publique au compte GitHub.
+- Vérification de la connexion SSH.
 
-## Capture d'Ã©cran
+## Capture d'écran
 
 ![Configuration SSH](screenshots/TP3/tp3-01-ssh.png)
 
 ---
 
-# TP4 â€” Pull Requests et protection des branches
+# TP4 — Pull Requests et protection des branches
 
 ## Objectif
 
-DÃ©couvrir les fonctionnalitÃ©s de collaboration de GitHub et apprendre Ã  protÃ©ger les branches importantes d'un dÃ©pÃ´t.
+Découvrir les fonctionnalités de collaboration de GitHub et apprendre à protéger les branches importantes d'un dépôt.
 
-## Travail rÃ©alisÃ©
+## Travail réalisé
 
-- CrÃ©ation d'une branche dÃ©diÃ©e Ã  la documentation.
+- Création d'une branche dédiée à la documentation.
 - Modification du fichier README.md.
-- CrÃ©ation et publication d'une branche distante.
+- Création et publication d'une branche distante.
 - Utilisation des Pull Requests.
 - Configuration du fichier CODEOWNERS.
-- Mise en place des rÃ¨gles de protection de la branche `main`.
-- VÃ©rification du refus des Push directs sur `main`.
-- Fusion d'une Pull Request avec la mÃ©thode Squash and Merge.
+- Mise en place des règles de protection de la branche `main`.
+- Vérification du refus des Push directs sur `main`.
+- Fusion d'une Pull Request avec la méthode Squash and Merge.
 
-## Captures d'Ã©cran
+## Captures d'écran
 
-### 1. VÃ©rification du refus du Push direct
+### 1. Vérification du refus du Push direct
 ![Push Rejected](screenshots/TP4/tp4-06-push-rejected.png)
 
 ### 2. Fusion Squash and Merge
@@ -172,11 +172,11 @@ DÃ©couvrir les fonctionnalitÃ©s de collaboration de GitHub et apprendre Ã 
 
 ---
 
-# Conclusion gÃ©nÃ©rale
+# Conclusion générale
 
-Ã€ travers ces travaux pratiques, nous avons appris Ã  utiliser Git et GitHub pour gÃ©rer les versions d'un projet, organiser le travail avec les branches, fusionner les modifications et collaborer Ã  travers les Pull Requests.
+À travers ces travaux pratiques, nous avons appris à utiliser Git et GitHub pour gérer les versions d'un projet, organiser le travail avec les branches, fusionner les modifications et collaborer à travers les Pull Requests.
 
-Ces exercices nous ont permis de dÃ©velopper des compÃ©tences pratiques en gestion de versions et en collaboration sur des projets informatiques.
+Ces exercices nous ont permis de développer des compétences pratiques en gestion de versions et en collaboration sur des projets informatiques.
 
 ---
 
