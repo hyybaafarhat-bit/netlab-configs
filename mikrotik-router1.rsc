@@ -2,3 +2,4 @@
 /ip route add gateway=192.168.10.254
 # test
 /system identity set name=router1
+/ip dns set servers=8.8.8.8
