@@ -48,3 +48,10 @@ git init
 
 git config user.name
 
+
+## TP 4 : Pull Requests et protection des branches
+
+- Création d'une Pull Request.
+- Configuration du fichier CODEOWNERS.
+- Activation des règles de protection sur main.
+- Vérification du refus des push directs sur main.
